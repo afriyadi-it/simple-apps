@@ -2,6 +2,6 @@ services:
    ct-apps:
       build: ./apps   
       ports:
-        - "1011:80"
-      env_files: .env
+        - "1500:80"
+      env_file: ./apps/.env
 
