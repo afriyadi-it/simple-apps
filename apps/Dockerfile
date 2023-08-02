@@ -1,7 +1,7 @@
 FROM node
-MAINTAINER afriyadi-it
-WORKDIR /app
-ADD . /app
+MAINTAINER afriyadi
+WORKDIR /apps
+ADD . /apps
 RUN npm install
 CMD npm start
 EXPOSE 3000
