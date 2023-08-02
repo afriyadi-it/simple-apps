@@ -2,6 +2,7 @@ services:
    ct-apps:
       build: ./apps   
       ports:
-        - "1500:80"
+        - "1500:3000"
+      restart: always
       env_file: ./apps/.env
 
